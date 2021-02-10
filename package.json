@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "name": "broadcast-observable-mono",
+  "workspaces": [
+    "packages/*"
+  ],
+  "bolt": {
+    "workspaces": [
+      "packages/*"
+    ]
+  },
+  "scripts": {}
+}
