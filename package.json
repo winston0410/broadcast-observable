@@ -9,5 +9,18 @@
       "packages/*"
     ]
   },
-  "scripts": {}
+  "scripts": {},
+  "devDependencies": {
+    "husky": "^5.0.9"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-staged"
+    }
+  },
+	"lint-staged": {
+		"**/*.js": [
+			"npx prettier --write"
+		]
+	}
 }
