@@ -9,6 +9,4 @@ function ObservableFactory(config){
   }
 }
 
-export {
-  ObservableFactory
-}
+export default ObservableFactory
